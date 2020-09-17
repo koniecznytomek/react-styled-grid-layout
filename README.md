@@ -88,7 +88,6 @@ const Grids = () => {
 };
 
 export default Grids;
-
 ```
 
 ## All props
@@ -108,18 +107,19 @@ export default Grids;
 
 | Props             | Breakpoints                       | Test         | 
 | :---------------- |:--------------------------| :--------------| 
-| `xxl` _:number_   | 1440px        | `<Col xxl="3">`     | 
+| `xxl` _:number_   | 5120px        | `<Col xxl="3">`     | 
 | `xl`           | 1200px     | `<Col xl="6">`       |
 | `lg`            | 992px |  `<Col lg="3">`     | 
 | `md`            | 768px |  `<Col md="12">`     | 
 | `sm`            | 576px |  `<Col sm="12">`     | 
 | `xs`            | 320px |  `<Col xs="12">`     | 
 
+\
 
 | Props             | CSS                       |  Default         | Test |
 | :---------------- |:--------------------------| :--------------| :------------- |
 | `row` _:number_ | grid-row        | auto     | `<Col row="1">`|
-| `span` _:number_ | grid-column-end        | 1     | `<Col span="2">`|
+| `span`  | grid-column-end      | 1     | `<Col span="2">`|
 | `from` `to`| grid-column: [from] / [to]       | none     | `<Col from="1" to="12">`|
 | `width`| max-width | none   | `<Col width="50%">`|
 | `height`| min-height | auto   | `<Col height="500px">`|
@@ -128,14 +128,16 @@ export default Grids;
 | `text`| text-align: [left, center, right] | left   | `<Col text="center">`|
 
 
- #### `<Row>...</Row>`
+#### `<Row>...</Row>`
+ 
  
  | Props             | CSS                       |  Default         | Test |
  | :---------------- |:--------------------------| :--------------| :------------- |
  | `height`  | min-height       | auto     | `<Row height="50px">`|
 
   
- #### `<Cell>...</Cell>`
+#### `<Cell>...</Cell>`
+ 
  
   | Props             | CSS                       |  Default         | Test |
   | :---------------- |:--------------------------| :--------------| :------------- |
@@ -145,11 +147,13 @@ export default Grids;
   | `width`| max-width | auto   | `<Cell width="100px">`|
 
 
-## React example
+## Github repository
 
-  `git clone https://github.com/koniecznytomek/react-styled-grid-layout`
+https://github.com/koniecznytomek/react-styled-grid-layout
+
+`git clone https://github.com/koniecznytomek/react-styled-grid-layout`
   
-## Live demo
+## Live demo 
 
 
 https://react-styled-grid-layout.netlify.app/
