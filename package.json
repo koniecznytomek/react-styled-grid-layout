@@ -1,6 +1,6 @@
 {
   "name": "react-styled-grid",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lightweight and very simple CSS Grid Layout library based on Styled Components for React, Gatsby and others.",
   "main": "index.js",
   "scripts": {

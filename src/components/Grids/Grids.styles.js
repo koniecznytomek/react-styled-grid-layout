@@ -31,7 +31,7 @@ export const Cell = styled.div(
 );
 
 export const Col = styled.div(
-  ({ xxl, xl, lg, md, sm, xs, row, from, to, width, height, align, justify, text }) => `
+  ({ xxl, xl, lg, md, sm, xs, row, span, from, to, width, height, align, justify, text }) => `
    
     ${xxl && media.xxl(`grid-column-end: span ${xxl};`)};
     ${xl && media.xl(`grid-column-end: span ${xl};`)};
@@ -41,6 +41,8 @@ export const Col = styled.div(
     ${xs && media.xs(`grid-column-end: span ${xs};`)};
     
     ${row && `grid-row: ${row}`};
+    
+    ${span && `grid-column-end: span ${span || '1'};`};
     
     ${from | to && `grid-column: ${from || 1} / ${to || -1};`};
     
@@ -60,7 +62,7 @@ export const mq = {
   md: '768px',
   lg: '992px',
   xl: '1200px',
-  xxl: '1440px',
+  xxl: '5120px',
 };
 
 export const media = {

@@ -1,6 +1,5 @@
 # React Styled Grid Layout
-<img alt="GitHub package.json version (branch)" src="https://img.shields.io/github/package-json/v/koniecznytomek/react-styled-grid-layout/master?label=Version">
-<img alt="Size" src="https://img.shields.io/badge/Lightweight-2KB-lemon">
+<img alt="GitHub package.json version (branch)" src="https://img.shields.io/github/package-json/v/koniecznytomek/react-styled-grid-layout/master?label=Version">&nbsp;<img alt="Size" src="https://img.shields.io/badge/Lightweight-2KB-lemon">
 
 \
 Lightweight and very simple **CSS Grid Layout** library based on **Styled Components** for **React, Gatsby** and
@@ -97,7 +96,7 @@ export default Grids;
 #### `<Grid>...</Grid>`
 
 
-| Props             | CSS                       |  Default         | Sample |
+| Props             | CSS                       |  Default         | Test |
 | :---------------- |:--------------------------| :--------------| :------------------- |
 | `rows` _:number_ | grid-template-rows        | auto     | `<Grid rows="1fr auto 100px ...">`|
 | `cols`           | grid-template-columns     | repeat(12, 1fr)     |`<Grid cols="12">`|
@@ -107,7 +106,7 @@ export default Grids;
 #### `<Col>...</Col>`
 
 
-| Props             | Breakpoints                       | Sample         | 
+| Props             | Breakpoints                       | Test         | 
 | :---------------- |:--------------------------| :--------------| 
 | `xxl` _:number_   | 1440px        | `<Col xxl="3">`     | 
 | `xl`           | 1200px     | `<Col xl="6">`       |
@@ -117,9 +116,10 @@ export default Grids;
 | `xs`            | 320px |  `<Col xs="12">`     | 
 
 
-| Props             | CSS                       |  Default         | Sample |
+| Props             | CSS                       |  Default         | Test |
 | :---------------- |:--------------------------| :--------------| :------------- |
 | `row` _:number_ | grid-row        | auto     | `<Col row="1">`|
+| `span` _:number_ | grid-column-end        | 1     | `<Col span="2">`|
 | `from` `to`| grid-column: [from] / [to]       | none     | `<Col from="1" to="12">`|
 | `width`| max-width | none   | `<Col width="50%">`|
 | `height`| min-height | auto   | `<Col height="500px">`|
@@ -130,14 +130,14 @@ export default Grids;
 
  #### `<Row>...</Row>`
  
- | Props             | CSS                       |  Default         | Sample |
+ | Props             | CSS                       |  Default         | Test |
  | :---------------- |:--------------------------| :--------------| :------------- |
  | `height`  | min-height       | auto     | `<Row height="50px">`|
 
   
  #### `<Cell>...</Cell>`
  
-  | Props             | CSS                       |  Default         | Sample |
+  | Props             | CSS                       |  Default         | Test |
   | :---------------- |:--------------------------| :--------------| :------------- |
 | `align`| align-self: [start, center, end] | start   | `<Cell align="center">`|
 | `justify`| justify-self: [start, center, end] | start   | `<Cell justify="center">`|

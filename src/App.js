@@ -5,7 +5,7 @@ import Sample from './components/Sample/Sample';
 const App = () => {
   return (
     <>
-      <Sample />
+      <Sample/>
     </>
   );
 };
