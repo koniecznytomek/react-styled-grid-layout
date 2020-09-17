@@ -1,6 +1,5 @@
 # React Styled Grid Layout
-<img alt="GitHub package.json version (branch)" src="https://img.shields.io/github/package-json/v/koniecznytomek/react-styled-grid-layout/master?label=Version">
-<img alt="Size" src="https://img.shields.io/badge/Lightweight-2KB-lemon">
+<img alt="GitHub package.json version (branch)" src="https://img.shields.io/github/package-json/v/koniecznytomek/react-styled-grid-layout/master?label=Version"><img alt="Size" src="https://img.shields.io/badge/Lightweight-2KB-lemon">
 
 \
 \
@@ -31,6 +30,7 @@ Correct order, everything must be wrapped in `<Grid>` tag.
    </Row>
 </Grid>
 ```
+\
 Simple two columns in one row:
 ``` 
 <Grid cols="2">
@@ -40,7 +40,7 @@ Simple two columns in one row:
     <Col>...</Col>
 </Grid>
 ```
-
+\
 Simple four columns grid with media queries and gaps:
 ``` 
 <Grid cols="12" gap="10px">
@@ -50,7 +50,7 @@ Simple four columns grid with media queries and gaps:
     <Col xxl="3" md="6" sm="12">...</Col>
 </Grid>
 ```
-
+\
 You can easily position content within the `<Row>` container  using `align` and `justify` props:
 ``` 
 <Grid cols="12" gap="10px">
@@ -61,10 +61,41 @@ You can easily position content within the `<Row>` container  using `align` and 
     </Row>
 </Grid>
 ```
+\
+React function component example:
+
+```
+import React from 'react';
+import { Grid, Row, Col, Cell } from 'react-styled-grid-layout';
+
+const Grids = () => {
+  return (
+    <>
+      <Grid cols="4">
+        <Col> 1 </Col>
+        <Col> 2 </Col>
+        <Col> 3 </Col>
+        <Col> 4 </Col>
+      </Grid>
+
+      <Grid>
+        <Row>
+          <Cell> 1 </Cell>
+          <Cell> 2 </Cell>
+        </Row>
+      </Grid>
+    </>
+  );
+};
+
+export default Grids;
+
+```
 
 ## All props
 
 #### `<Grid>...</Grid>`
+
 
 | Props             | CSS                       |  Default         | Sample |
 | :---------------- |:--------------------------| :--------------| :------------------- |
@@ -74,6 +105,7 @@ You can easily position content within the `<Row>` container  using `align` and 
 
 
 #### `<Col>...</Col>`
+
 
 | Props             | Breakpoints                       | Sample         | 
 | :---------------- |:--------------------------| :--------------| 
@@ -115,10 +147,9 @@ You can easily position content within the `<Row>` container  using `align` and 
 
 ## React example
 
-  `git clone https://github.com/koniecznytomek/react-css-styled-grid-layout`
+  `git clone https://github.com/koniecznytomek/react-styled-grid-layout`
   
 ## Live demo
-
 
 
 https://react-styled-grid-layout.netlify.app/
