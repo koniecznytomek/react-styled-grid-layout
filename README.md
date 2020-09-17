@@ -1,7 +1,7 @@
 # React Styled Grid Layout
-<img alt="GitHub package.json version (branch)" src="https://img.shields.io/github/package-json/v/koniecznytomek/react-styled-grid-layout/master?label=Version"><img alt="Size" src="https://img.shields.io/badge/Lightweight-2KB-lemon">
+<img alt="GitHub package.json version (branch)" src="https://img.shields.io/github/package-json/v/koniecznytomek/react-styled-grid-layout/master?label=Version">
+<img alt="Size" src="https://img.shields.io/badge/Lightweight-2KB-lemon">
 
-\
 \
 Lightweight and very simple **CSS Grid Layout** library based on **Styled Components** for **React, Gatsby** and
  others.
