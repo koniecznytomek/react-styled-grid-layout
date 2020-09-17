@@ -1,7 +1,11 @@
 # React Styled Grid Layout
-[![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
+<img alt="GitHub package.json version (branch)" src="https://img.shields.io/github/package-json/v/koniecznytomek/react-styled-grid-layout/master?label=Version">
+<img alt="Size" src="https://img.shields.io/badge/Lightweight-2KB-lemon">
 
-Lightweight and very simple **CSS Grid Layout** library based on **Styled Components** for **React, Gatsby** and others.
+\
+\
+Lightweight and very simple **CSS Grid Layout** library based on **Styled Components** for **React, Gatsby** and
+ others.
 
 ## Installation
 
