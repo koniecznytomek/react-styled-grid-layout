@@ -161,4 +161,10 @@ https://react-styled-grid-layout.netlify.app/
 
 ## Case study
 
-![alt text](https://github.com/koniecznytomek/react-styled-grid-layout/blob/master/static/row-1.png?raw=true)
+![alt text](https://github.com/koniecznytomek/react-styled-grid-layout/blob/master/static/case-1.png?raw=true)
+
+![alt text](https://github.com/koniecznytomek/react-styled-grid-layout/blob/master/static/case-2.png?raw=true)
+
+![alt text](https://github.com/koniecznytomek/react-styled-grid-layout/blob/master/static/case-3.png?raw=true)
+
+![alt text](https://github.com/koniecznytomek/react-styled-grid-layout/blob/master/static/case-4.png?raw=true)
