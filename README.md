@@ -51,7 +51,7 @@ Simple four columns grid with media queries and gaps:
 ```
 \
 You can easily position content within the `<Row>` container  using `align` and `justify` props:
-``` 
+```js 
 <Grid cols="12" gap="10px">
     <Row height="400px">
         <Cell align="center" justify="center"> Center </Cell>
@@ -63,7 +63,7 @@ You can easily position content within the `<Row>` container  using `align` and 
 \
 React function component example:
 
-```
+```js
 import React from 'react';
 import { Grid, Row, Col, Cell } from 'react-styled-grid-layout';
 
