@@ -16,13 +16,13 @@ Lightweight and very simple **CSS Grid Layout** library based on **Styled Compon
 
 ## Examples
 Correct order, everything must be wrapped in `<Grid>` tag.
-``` 
+```js 
 <Grid>
     <Col>...</Col>
 </Grid>
 ```
 
-``` 
+```js 
 <Grid>
    <Row>
       <Cell>...</Cell>
@@ -31,7 +31,7 @@ Correct order, everything must be wrapped in `<Grid>` tag.
 ```
 \
 Simple two columns in one row:
-``` 
+```js 
 <Grid cols="2">
     <Col>...</Col>
     <Col>...</Col>
@@ -41,7 +41,7 @@ Simple two columns in one row:
 ```
 \
 Simple four columns grid with media queries and gaps:
-``` 
+```js 
 <Grid cols="12" gap="10px">
     <Col xxl="3" md="6" sm="12">...</Col>
     <Col xxl="3" md="6" sm="12">...</Col>
